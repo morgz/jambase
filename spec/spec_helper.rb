@@ -1,3 +1,4 @@
+require_relative '../lib/jambase'
 require 'vcr'
 
 VCR.configure do |c|
