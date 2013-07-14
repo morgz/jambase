@@ -7,15 +7,15 @@ module Jambase
     end
 
     def events_by_zip(zip)
-      Event.by_zip(zip, self)
+      Event.find_by(self, zipCode: zip)
     end
 
     def events_by_artist_id(artist_id)
-      Event.by_artist_id(artist_id, self)
+      Event.find_by(self, artistId: artist_id)
     end
 
     def events_by_venue_id(venue_id)
-      Event.by_venue_id(venue_id, self)
+      Event.find_by(self, venueId: venue_id)
     end
 
     def event_by_id(event_id)

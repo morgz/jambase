@@ -3,19 +3,8 @@ require 'jambase/artist'
 module Jambase
   class Event < InfoHash
 
-    def self.by_zip(zipcode, api)
-      data = api.connection.get('events', zipCode: zipcode)
-      data['Events'].map{|event| new(event, api) }
-    end
-
-    def self.by_artist_id(artist_id, api)
-      # TODO capitalization
-      data = api.connection.get('events', artistId: artist_id)
-      data['Events'].map{|event| new(event, api) }
-    end
-
-    def self.by_venue_id(venue_id, api)
-      data = api.connection.get('events', venueId: venue_id)
+    def self.find_by(api, conditions)
+      data = api.connection.get('events', conditions)
       data['Events'].map{|event| new(event, api) }
     end
 
