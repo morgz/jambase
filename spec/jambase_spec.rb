@@ -2,7 +2,6 @@ require 'spec_helper.rb'
 require_relative '../lib/jambase'
 
 describe Jambase do
-
   describe Jambase::Connection, vcr: true do
 
     let(:conn){ Jambase::Connection.new(ENV['JAMBASE_API_KEY']) }
@@ -11,6 +10,11 @@ describe Jambase do
     it 'connects' do
       response = conn.get('events', id: 0)
       response['Id'].should eq(0)
+    end
+
+    it 'raises exceptions when using bad credentials' do
+      expect{ bad_conn.get('events', id: 0) }
+      .to raise_exception Jambase::NotAuthenticated
     end
 
     describe '#authenticated?' do
