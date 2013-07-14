@@ -10,7 +10,7 @@ module Jambase
 
     def self.by_artist_id(artist_id, api)
       # TODO capitalization
-      data = api.connection.get('events', ArtistId: artist_id)
+      data = api.connection.get('events', artistId: artist_id)
       data['Events'].map{|event| new(event, api) }
     end
 

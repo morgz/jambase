@@ -43,7 +43,7 @@ http_interactions:
   recorded_at: Sun, 14 Jul 2013 03:51:55 GMT
 - request:
     method: get
-    uri: http://api.jambase.com/events?ArtistId=6763&api_key=<API_KEY>
+    uri: http://api.jambase.com/events?artistId=6763&api_key=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
