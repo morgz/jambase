@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.jambase.com/events?api_key=<API_KEY>&id=2021138
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 14 Jul 2013 14:32:03 GMT
+      Retry-After:
+      - '35968'
+      Server:
+      - Mashery Proxy
+      X-Mashery-Error-Code:
+      - ERR_403_DEVELOPER_OVER_RATE
+      X-Mashery-Responder:
+      - prod-p-worker-us-east-1b-46.mashery.com
+      Content-Length:
+      - '32'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: <h1>403 Developer Over Rate</h1>
+    http_version: 
+  recorded_at: Sun, 14 Jul 2013 14:34:03 GMT
+recorded_with: VCR 2.5.0

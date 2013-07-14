@@ -13,7 +13,7 @@ module Jambase
 
     def get(endpoint, params={})
       get_unchecked(endpoint, params).tap do
-        raise NotAuthenticated unless authenticated?
+        check_response
       end
     end
 
@@ -22,8 +22,17 @@ module Jambase
       @last_response = self.class.get(url)
     end
 
+    def check_response
+      raise RateLimited if rate_limited?
+      raise NotAuthenticated unless authenticated?
+    end
+
     def authenticated?
       last_response.code != 403
+    end
+
+    def rate_limited?
+      last_response['h1'] == '403 Developer Over Rate'
     end
 
     def default_params
@@ -37,4 +46,5 @@ module Jambase
   end
   class NotAuthenticated < StandardError; end
   class NilApiKey < ArgumentError; end
+  class RateLimited < StandardError; end
 end

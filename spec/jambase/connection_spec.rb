@@ -20,6 +20,13 @@ describe Jambase::Connection, vcr: true do
       expect{ Jambase::Connection.new(nil) }
       .to raise_exception Jambase::NilApiKey
     end
+
+    it 'when rate limited' do
+      # TODO Mock the ratelimitedness of the following, right now
+      # VCR is recording me be actually rate limited
+      expect{ api.event_by_id(2021138) }
+      .to raise_exception Jambase::RateLimited
+    end
   end
 
   describe '#authenticated?' do
