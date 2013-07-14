@@ -10,9 +10,16 @@ describe Jambase::Connection, vcr: true do
     response['Id'].should eq(0)
   end
 
-  it 'raises exceptions when using bad credentials' do
-    expect{ bad_conn.get('events', id: 0) }
-    .to raise_exception Jambase::NotAuthenticated
+  context 'exceptions raised' do
+    it 'when using bad credentials' do
+      expect{ bad_conn.get('events', id: 0) }
+      .to raise_exception Jambase::NotAuthenticated
+    end
+
+    it 'when nil key passed' do
+      expect{ Jambase::Connection.new(nil) }
+      .to raise_exception Jambase::NilApiKey
+    end
   end
 
   describe '#authenticated?' do

@@ -7,6 +7,7 @@ module Jambase
     base_uri 'api.jambase.com'
 
     def initialize(api_key)
+      raise NilApiKey if api_key.nil?
       @api_key = api_key
     end
 
@@ -36,4 +37,5 @@ module Jambase
 
   end
   class NotAuthenticated < StandardError; end
+  class NilApiKey < ArgumentError; end
 end
