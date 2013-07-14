@@ -7,15 +7,15 @@ module Jambase
     end
 
     def events_by_zip(zip)
-      Events.by_zip(zip, @connection)
+      Event.by_zip(zip, self)
     end
 
     def venue_by_id(id)
-      Venue.new( @connection.get('venues', id: id) )
+      Venue.by_id(id, self)
     end
 
     def artist_by_id(id)
-      Artist.by_id(id, @connection)
+      Artist.by_id(id, self)
     end
 
   end

@@ -1,7 +1,7 @@
 require 'spec_helper'
 describe Jambase::InfoHash do
 
-  let(:info){ described_class.new('SomeThing'=>1, 'Present'=>1) }
+  let(:info){ described_class.new({'SomeThing'=>1, 'Present'=>1}, api) }
 
   it 'translates attributes' do
     info.some_thing.should eq(1)
@@ -18,7 +18,7 @@ describe Jambase::InfoHash do
 
   describe '==' do
     it 'compares by value' do
-      described_class.new('A'=>1).should eq(described_class.new('A'=>1))
+      described_class.new({'A'=>1},nil).should eq(described_class.new({'A'=>1},nil))
     end
   end
 
