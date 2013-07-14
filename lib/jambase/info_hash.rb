@@ -2,6 +2,7 @@ require 'active_support/inflector'
 
 module Jambase
   class InfoHash
+    attr_accessor :attrs
 
     def initialize(attrs)
       @attrs=attrs
@@ -14,6 +15,10 @@ module Jambase
 
     def method_missing(attr_name, *opts)
       @attrs.fetch(attr_name.to_s.classify){ super }
+    end
+
+    def ==(other)
+      self.attrs == other.attrs
     end
 
   end

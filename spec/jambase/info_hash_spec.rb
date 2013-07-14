@@ -16,4 +16,11 @@ describe Jambase::InfoHash do
     end
   end
 
+  describe '==' do
+    it 'compares by value' do
+      described_class.new('A'=>1).should eq(described_class.new('A'=>1))
+    end
+  end
+
+
 end
