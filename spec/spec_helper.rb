@@ -3,7 +3,8 @@ require 'vcr'
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  c.default_cassette_options = { :record => :new_episodes }
+  #c.default_cassette_options = { :record => :new_episodes }
+  c.default_cassette_options = { :match_requests_on => [:query] }
   c.hook_into :webmock
   c.filter_sensitive_data('<API_KEY>') { ENV.fetch 'JAMBASE_API_KEY' }
   c.configure_rspec_metadata!
