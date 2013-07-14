@@ -9,6 +9,15 @@ module Jambase
       @api=api
     end
 
+    def self.by_id(id, api)
+      data = api.connection.get(endpoint_name, id: id)
+      new(data, api)
+    end
+
+    def self.endpoint_name
+      self.to_s.tableize
+    end
+
     def respond_to?(attr_name)
       return true if @attrs[attr_name.to_s.classify]
       super

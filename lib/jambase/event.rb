@@ -13,11 +13,6 @@ module Jambase
       data['Events'].map{|event| new(event, api) }
     end
 
-    def self.by_id(event_id, api)
-      data = api.connection.get('events', id: event_id)
-      new(data, api)
-    end
-
     def venue
       @venue ||= Venue.new(@attrs['Venue'], api)
     end
