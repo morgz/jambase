@@ -14,5 +14,9 @@ module Jambase
       Venue.new( @connection.get('venues', id: id) )
     end
 
+    def artist_by_id(id)
+      Artist.by_id(id, @connection)
+    end
+
   end
 end
