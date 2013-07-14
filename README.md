@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/brasic/jambase.png)](https://travis-ci.org/brasic/jambase)
 # Jambase
 
 This is a simple wrapper over the Jambase v3 API: http://developer.jambase.com/
