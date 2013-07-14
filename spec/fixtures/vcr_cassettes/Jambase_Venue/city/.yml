@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.jambase.com/venues?api_key=<API_KEY>&id=652
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 14 Jul 2013 02:56:31 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Mashery-Responder:
+      - prod-p-worker-us-east-1d-34.mashery.com
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '266'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"Id":652,"Name":"Paramount Theatre","Address":"713 Congress","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.austintheatre.org","Latitude":30.269221,"Longitude":-97.742541}'
+    http_version: 
+  recorded_at: Sun, 14 Jul 2013 03:03:17 GMT
+recorded_with: VCR 2.5.0

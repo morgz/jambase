@@ -1,0 +1,189 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.jambase.com/events?api_key=<API_KEY>&zipCode=78701
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 14 Jul 2013 02:56:27 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Mashery-Responder:
+      - prod-p-worker-us-east-1d-34.mashery.com
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '21168'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"Info":{"TotalResults":194,"PageNumber":0,"Message":null},"Events":[{"Id":2039416,"Date":"2013-07-13T21:00:00","Venue":{"Id":5021,"Name":"Saxon
+        Pub","Address":"1320 South Lamar","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78704","Url":"http://www.thesaxonpub.com/","Latitude":30.25484,"Longitude":-97.762436},"Artists":[{"Id":19276,"Name":"Guy
+        Forsyth"}],"TicketUrl":"http://saxonpub.frontgatetickets.com/choose.php?a=1&lid=82637&eid=93039"},{"Id":2021138,"Date":"2013-07-14T00:00:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":95374,"Name":"Wood
+        & Wire"}],"TicketUrl":""},{"Id":2053962,"Date":"2013-07-15T00:00:00","Venue":{"Id":12080,"Name":"Red
+        Eyed Fly","Address":"","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78702","Url":"http://www.redeyedfly.com","Latitude":0.0,"Longitude":0.0},"Artists":[{"Id":94952,"Name":"Runaway
+        Sun"}],"TicketUrl":""},{"Id":2055416,"Date":"2013-07-15T18:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":60928,"Name":"Tommy
+        Taylor "}],"TicketUrl":""},{"Id":2039411,"Date":"2013-07-15T20:00:00","Venue":{"Id":1052,"Name":"The
+        Parish","Address":"214 E. Sixth St","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.theparishaustin.com/","Latitude":30.26779,"Longitude":-97.741431},"Artists":[{"Id":46276,"Name":"Blitzen
+        Trapper"}],"TicketUrl":"http://c3presents.frontgatetickets.com/choose.php?a=1&lid=82576&eid=92974"},{"Id":2040782,"Date":"2013-07-15T23:00:00","Venue":{"Id":11677,"Name":"Hole
+        in the Wall","Address":"2538 Guadalupe St.","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78705","Url":"http://www.holeinthewallaustin.com/","Latitude":0.0,"Longitude":0.0},"Artists":[{"Id":88198,"Name":"Seth
+        Sherman"}],"TicketUrl":""},{"Id":2027933,"Date":"2013-07-16T00:00:00","Venue":{"Id":3228,"Name":"Flamingo
+        Cantina","Address":"515 E. Sixth Street","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.flamingocantina.com/","Latitude":30.266865,"Longitude":-97.738225},"Artists":[{"Id":90252,"Name":"La
+        Guerrilla"}],"TicketUrl":""},{"Id":2020521,"Date":"2013-07-16T03:30:00","Venue":{"Id":5021,"Name":"Saxon
+        Pub","Address":"1320 South Lamar","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78704","Url":"http://www.thesaxonpub.com/","Latitude":30.25484,"Longitude":-97.762436},"Artists":[{"Id":57722,"Name":"Mando
+        Saenz"}],"TicketUrl":""},{"Id":2043641,"Date":"2013-07-17T19:00:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":19970,"Name":"Jeff
+        Strahan"}],"TicketUrl":""},{"Id":2028480,"Date":"2013-07-18T00:00:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":26892,"Name":"Jason
+        Allen"}],"TicketUrl":""},{"Id":2048862,"Date":"2013-07-18T00:00:00","Venue":{"Id":9964,"Name":"Triple
+        Crown","Address":"206 North Edward Gary","City":"San Marcos","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78666","Url":"http://www.triplecrownlive.com","Latitude":29.883609,"Longitude":-97.938847},"Artists":[{"Id":42576,"Name":"Eric
+        Hisaw"},{"Id":65807,"Name":"The Calm Blue Sea"},{"Id":88823,"Name":"Equals"}],"TicketUrl":""},{"Id":2033961,"Date":"2013-07-18T00:00:00","Venue":{"Id":11547,"Name":"One
+        World Theater","Address":"7701 Bee Caves Road","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78746","Url":"http://oneworldtheatre.org/index.html","Latitude":30.31042,"Longitude":-97.84542},"Artists":[{"Id":46839,"Name":"Ken
+        Navarro"}],"TicketUrl":""},{"Id":2016278,"Date":"2013-07-18T13:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":37598,"Name":"Psychedelic
+        Furs"},{"Id":99770,"Name":"The Technicolors"}],"TicketUrl":"http://c3presents.frontgatetickets.com/choose.php?a=1&lid=81703&eid=92040"},{"Id":2058989,"Date":"2013-07-18T19:00:00","Venue":{"Id":1052,"Name":"The
+        Parish","Address":"214 E. Sixth St","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.theparishaustin.com/","Latitude":30.26779,"Longitude":-97.741431},"Artists":[{"Id":19312,"Name":"The
+        Roosevelts"},{"Id":91117,"Name":"Reed Turner"}],"TicketUrl":"http://theparishaustin.frontgatetickets.com/choose.php?a=1&lid=83532&eid=94002"},{"Id":2006430,"Date":"2013-07-18T20:00:00","Venue":{"Id":5021,"Name":"Saxon
+        Pub","Address":"1320 South Lamar","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78704","Url":"http://www.thesaxonpub.com/","Latitude":30.25484,"Longitude":-97.762436},"Artists":[{"Id":9004,"Name":"Patrice
+        Pike"}],"TicketUrl":""},{"Id":2020519,"Date":"2013-07-19T03:30:00","Venue":{"Id":9660,"Name":"Cheatham
+        Street Warehouse","Address":"119 Cheatham Street","City":"San Marcos","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78666","Url":"http://www.cheathamstreet.com","Latitude":29.876501,"Longitude":-97.939486},"Artists":[{"Id":57722,"Name":"Mando
+        Saenz"}],"TicketUrl":""},{"Id":1994544,"Date":"2013-07-19T12:00:00","Venue":{"Id":8340,"Name":"Austin
+        Music Hall","Address":"208 Nueces","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.austinmusichall.com","Latitude":30.266091,"Longitude":-97.749858},"Artists":[{"Id":54552,"Name":"New
+        Order"},{"Id":56474,"Name":"Holy Ghost!"}],"TicketUrl":""},{"Id":2051456,"Date":"2013-07-19T21:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":100678,"Name":"The
+        Whiskey Sisters"}],"TicketUrl":"http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=www.ticketfly.com/purchase/event/308225/tfly?utm_medium=api"},{"Id":2039422,"Date":"2013-07-19T22:45:00","Venue":{"Id":5021,"Name":"Saxon
+        Pub","Address":"1320 South Lamar","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78704","Url":"http://www.thesaxonpub.com/","Latitude":30.25484,"Longitude":-97.762436},"Artists":[{"Id":25484,"Name":"Seth
+        Walker"}],"TicketUrl":"http://saxonpub.frontgatetickets.com/choose.php?a=1&lid=82638&eid=93040"},{"Id":2048924,"Date":"2013-07-20T00:00:00","Venue":{"Id":9964,"Name":"Triple
+        Crown","Address":"206 North Edward Gary","City":"San Marcos","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78666","Url":"http://www.triplecrownlive.com","Latitude":29.883609,"Longitude":-97.938847},"Artists":[{"Id":83873,"Name":"Chasca"}],"TicketUrl":""},{"Id":2033962,"Date":"2013-07-20T00:00:00","Venue":{"Id":11547,"Name":"One
+        World Theater","Address":"7701 Bee Caves Road","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78746","Url":"http://oneworldtheatre.org/index.html","Latitude":30.31042,"Longitude":-97.84542},"Artists":[{"Id":37696,"Name":"Yellowjackets"}],"TicketUrl":""},{"Id":2037135,"Date":"2013-07-20T00:00:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":83401,"Name":"Clay
+        McClinton"}],"TicketUrl":""},{"Id":2044903,"Date":"2013-07-20T00:00:00","Venue":{"Id":11918,"Name":"Hanover''s","Address":"","City":"Pflugerville","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78660","Url":"","Latitude":0.0,"Longitude":0.0},"Artists":[{"Id":85933,"Name":"Jason
+        McMaster"}],"TicketUrl":""},{"Id":1995491,"Date":"2013-07-20T19:00:00","Venue":{"Id":1052,"Name":"The
+        Parish","Address":"214 E. Sixth St","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.theparishaustin.com/","Latitude":30.26779,"Longitude":-97.741431},"Artists":[{"Id":44977,"Name":"Brighten"},{"Id":51383,"Name":"A
+        Rocket To The Moon"},{"Id":51384,"Name":"The Maine"},{"Id":56277,"Name":"This
+        Century"},{"Id":65503,"Name":"Molo Eight"}],"TicketUrl":"http://c3presents.frontgatetickets.com/choose.php?a=1&lid=80872&eid=91131"},{"Id":2041227,"Date":"2013-07-20T21:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":27231,"Name":"Stoney
+        LaRue"}],"TicketUrl":"http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=www.ticketfly.com/purchase/event/298185/tfly?utm_medium=api"},{"Id":2035733,"Date":"2013-07-20T23:50:00","Venue":{"Id":11677,"Name":"Hole
+        in the Wall","Address":"2538 Guadalupe St.","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78705","Url":"http://www.holeinthewallaustin.com/","Latitude":0.0,"Longitude":0.0},"Artists":[{"Id":94137,"Name":"The
+        Jake Levinson Band"}],"TicketUrl":""},{"Id":2055417,"Date":"2013-07-22T18:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":60928,"Name":"Tommy
+        Taylor "}],"TicketUrl":""},{"Id":2054931,"Date":"2013-07-22T20:00:00","Venue":{"Id":7181,"Name":"Cactus
+        Cafe","Address":"2247 Guadalupe St","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78734","Url":"http://www.utexas.edu/student/txunion/ae/cactus/","Latitude":30.266944,"Longitude":-97.742778},"Artists":[{"Id":91047,"Name":"Jack
+        Wilson"},{"Id":99850,"Name":"The Love Leighs"}],"TicketUrl":""},{"Id":2040781,"Date":"2013-07-22T23:00:00","Venue":{"Id":11677,"Name":"Hole
+        in the Wall","Address":"2538 Guadalupe St.","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78705","Url":"http://www.holeinthewallaustin.com/","Latitude":0.0,"Longitude":0.0},"Artists":[{"Id":88198,"Name":"Seth
+        Sherman"}],"TicketUrl":""},{"Id":2062249,"Date":"2013-07-23T20:30:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":27154,"Name":"Two
+        Tons of Steel"}],"TicketUrl":""},{"Id":2048988,"Date":"2013-07-24T00:00:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":83521,"Name":"Rick
+        Trevino"}],"TicketUrl":""},{"Id":2054166,"Date":"2013-07-24T00:00:00","Venue":{"Id":1052,"Name":"The
+        Parish","Address":"214 E. Sixth St","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.theparishaustin.com/","Latitude":30.26779,"Longitude":-97.741431},"Artists":[{"Id":65025,"Name":"Havilah"}],"TicketUrl":""},{"Id":2057267,"Date":"2013-07-24T18:30:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":48693,"Name":"Chris
+        Layton"},{"Id":84926,"Name":"Cindy Cashdollar"}],"TicketUrl":"http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=www.ticketfly.com/purchase/event/315337/tfly?utm_medium=api"},{"Id":2054756,"Date":"2013-07-24T20:00:00","Venue":{"Id":5021,"Name":"Saxon
+        Pub","Address":"1320 South Lamar","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78704","Url":"http://www.thesaxonpub.com/","Latitude":30.25484,"Longitude":-97.762436},"Artists":[{"Id":57245,"Name":"Lisa
+        Marshall"}],"TicketUrl":""},{"Id":2048998,"Date":"2013-07-25T00:00:00","Venue":{"Id":7181,"Name":"Cactus
+        Cafe","Address":"2247 Guadalupe St","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78734","Url":"http://www.utexas.edu/student/txunion/ae/cactus/","Latitude":30.266944,"Longitude":-97.742778},"Artists":[{"Id":68387,"Name":"Chuck
+        Cannon"}],"TicketUrl":""},{"Id":2049004,"Date":"2013-07-25T00:00:00","Venue":{"Id":9964,"Name":"Triple
+        Crown","Address":"206 North Edward Gary","City":"San Marcos","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78666","Url":"http://www.triplecrownlive.com","Latitude":29.883609,"Longitude":-97.938847},"Artists":[{"Id":65383,"Name":"The
+        Erickson"}],"TicketUrl":""},{"Id":2037193,"Date":"2013-07-25T00:00:00","Venue":{"Id":11677,"Name":"Hole
+        in the Wall","Address":"2538 Guadalupe St.","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78705","Url":"http://www.holeinthewallaustin.com/","Latitude":0.0,"Longitude":0.0},"Artists":[{"Id":68292,"Name":"Mississippi
+        Shakedown"}],"TicketUrl":""},{"Id":2060010,"Date":"2013-07-25T00:00:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":32151,"Name":"Roger
+        Creager"}],"TicketUrl":""},{"Id":1985673,"Date":"2013-07-25T14:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":40659,"Name":"Chris
+        Knight"}],"TicketUrl":"http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=www.ticketfly.com/purchase/event/251859/tfly?utm_medium=api"},{"Id":2006431,"Date":"2013-07-25T20:00:00","Venue":{"Id":5021,"Name":"Saxon
+        Pub","Address":"1320 South Lamar","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78704","Url":"http://www.thesaxonpub.com/","Latitude":30.25484,"Longitude":-97.762436},"Artists":[{"Id":9004,"Name":"Patrice
+        Pike"}],"TicketUrl":""},{"Id":2046621,"Date":"2013-07-25T21:00:00","Venue":{"Id":1052,"Name":"The
+        Parish","Address":"214 E. Sixth St","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.theparishaustin.com/","Latitude":30.26779,"Longitude":-97.741431},"Artists":[{"Id":78966,"Name":"Seryn"}],"TicketUrl":"http://theparishaustin.frontgatetickets.com/choose.php?a=1&lid=82988&eid=93410"},{"Id":2038240,"Date":"2013-07-26T00:00:00","Venue":{"Id":3228,"Name":"Flamingo
+        Cantina","Address":"515 E. Sixth Street","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.flamingocantina.com/","Latitude":30.266865,"Longitude":-97.738225},"Artists":[{"Id":70034,"Name":"Pacific
+        Dub"}],"TicketUrl":""},{"Id":2033963,"Date":"2013-07-26T00:00:00","Venue":{"Id":11547,"Name":"One
+        World Theater","Address":"7701 Bee Caves Road","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78746","Url":"http://oneworldtheatre.org/index.html","Latitude":30.31042,"Longitude":-97.84542},"Artists":[{"Id":11442,"Name":"Firefall"}],"TicketUrl":""},{"Id":2039432,"Date":"2013-07-26T21:00:00","Venue":{"Id":5021,"Name":"Saxon
+        Pub","Address":"1320 South Lamar","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78704","Url":"http://www.thesaxonpub.com/","Latitude":30.25484,"Longitude":-97.762436},"Artists":[{"Id":28917,"Name":"The
+        Malford Milligan Band"}],"TicketUrl":"http://saxonpub.frontgatetickets.com/choose.php?a=1&lid=82639&eid=93041"},{"Id":2024835,"Date":"2013-07-26T21:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":35191,"Name":"Uncle
+        Lucius"},{"Id":97404,"Name":"Quaker City Night Hawks"}],"TicketUrl":"http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=www.ticketfly.com/purchase/event/284605/tfly?utm_medium=api"},{"Id":2054260,"Date":"2013-07-27T00:00:00","Venue":{"Id":9964,"Name":"Triple
+        Crown","Address":"206 North Edward Gary","City":"San Marcos","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78666","Url":"http://www.triplecrownlive.com","Latitude":29.883609,"Longitude":-97.938847},"Artists":[{"Id":86067,"Name":"Kabomba!"}],"TicketUrl":""},{"Id":2029477,"Date":"2013-07-27T00:00:00","Venue":{"Id":12494,"Name":"Speakeasy","Address":"412
+        congress","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"73301","Url":"http://www.speakeasyaustin.com","Latitude":30.26643,"Longitude":-97.743546},"Artists":[{"Id":85283,"Name":"The
+        Chorderoys"}],"TicketUrl":""},{"Id":2011611,"Date":"2013-07-27T15:00:00","Venue":{"Id":1375,"Name":"Antone''s","Address":"213
+        W 5th St ","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"http://www.antones.net/","Latitude":30.267645,"Longitude":-97.744718},"Artists":[{"Id":6611,"Name":"Carolyn
+        Wonderland"},{"Id":12606,"Name":"John Gaar Band"},{"Id":60288,"Name":"Time
+        for Three"}],"TicketUrl":"http://www.shareasale.com/r.cfm?u=460319&b=234786&m=27601&afftrack=&urllink=www.ticketfly.com/purchase/event/273197/tfly?utm_medium=api"},{"Id":2000471,"Date":"2013-07-27T19:30:00","Venue":{"Id":12019,"Name":"Frank
+        Erwin Center","Address":"","City":"Austin","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78701","Url":"","Latitude":0.0,"Longitude":0.0},"Artists":[{"Id":35980,"Name":"Black
+        Sabbath"},{"Id":47611,"Name":"Andrew W.K."}],"TicketUrl":"http://ticketsus.at/jambase?CTY=39&DURL=http://ev9.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=EC07273&linkID=tex-erw&shopperContext=&caller=&appCode="},{"Id":2040729,"Date":"2013-07-27T20:00:00","Venue":{"Id":14448,"Name":"Gruene
+        Hall","Address":"1601 Hunter Rd","City":"New Braunfels","State":"Texas","StateCode":"TX","Country":"United
+        States of America","CountryCode":"US","ZipCode":"78130","Url":"http://www.gruenehall.com/","Latitude":29.739323,"Longitude":-98.104285},"Artists":[{"Id":30640,"Name":"Josh
+        Grider "}],"TicketUrl":""}]}'
+    http_version: 
+  recorded_at: Sun, 14 Jul 2013 03:03:13 GMT
+recorded_with: VCR 2.5.0

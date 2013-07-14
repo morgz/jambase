@@ -7,7 +7,7 @@ describe Jambase::InfoHash do
     info.some_thing.should eq(1)
   end
 
-  context '#respond_to' do
+  context '#respond_to?' do
     it 'it true for present attributes' do
       info.should respond_to :present
     end

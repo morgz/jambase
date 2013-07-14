@@ -1,7 +1,6 @@
 require "jambase/version"
+require "jambase/api"
 require "jambase/connection"
-#require "jambase/event"
-
-module Jambase
-end
-
+require "jambase/info_hash"
+require "jambase/event"
+require "jambase/events"
