@@ -15,7 +15,7 @@ module Jambase
     end
 
     def self.endpoint_name
-      self.to_s.tableize
+      self.to_s.demodulize.tableize
     end
 
     def respond_to?(attr_name)
