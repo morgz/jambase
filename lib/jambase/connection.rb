@@ -24,7 +24,12 @@ module Jambase
 
     def check_response
       raise RateLimited if rate_limited?
+      raise ApiUsageError if usage_error?
       raise NotAuthenticated unless authenticated?
+    end
+
+    def usage_error?
+      last_response.code == 596
     end
 
     def authenticated?
@@ -47,4 +52,5 @@ module Jambase
   class NotAuthenticated < StandardError; end
   class NilApiKey < ArgumentError; end
   class RateLimited < StandardError; end
+  class ApiUsageError < StandardError; end
 end
