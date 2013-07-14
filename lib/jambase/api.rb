@@ -14,6 +14,10 @@ module Jambase
       Event.by_artist_id(artist_id, self)
     end
 
+    def events_by_venue_id(venue_id)
+      Event.by_venue_id(venue_id, self)
+    end
+
     def event_by_id(event_id)
       Event.by_id(event_id, self)
     end
