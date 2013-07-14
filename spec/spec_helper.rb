@@ -8,3 +8,7 @@ VCR.configure do |c|
   c.filter_sensitive_data('<API_KEY>') { ENV['JAMBASE_API_KEY'] }
   c.configure_rspec_metadata!
 end
+
+def api
+  Jambase::Api.new(ENV['JAMBASE_API_KEY'])
+end

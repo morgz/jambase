@@ -2,7 +2,7 @@ require 'spec_helper.rb'
 
 describe Jambase::Connection, vcr: true do
 
-  let(:conn){ Jambase::Connection.new(ENV['JAMBASE_API_KEY']) }
+  let(:conn){ api.connection }
   let(:bad_conn){ Jambase::Connection.new('fake_api_key') }
 
   it 'connects' do
