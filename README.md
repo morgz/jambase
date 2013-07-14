@@ -14,7 +14,10 @@ And then execute:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'jambase'
+    api = Jambase::Api.new(YOUR_API_KEY)
+    # See lib/jambase/api.rb and developer.jambase.com for the full list
+
 
 ## Contributing
 
