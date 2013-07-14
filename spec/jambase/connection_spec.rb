@@ -38,4 +38,6 @@ describe Jambase::Connection, vcr: true do
     end
   end
 
+  it 'checks for id=0 and returns nil'
+
 end
