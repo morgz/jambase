@@ -19,7 +19,6 @@ module Jambase
 
     def get_unchecked(endpoint, params={})
       url = "/#{endpoint}?#{params.merge(default_params).to_query}"
-      puts url
       @last_response = self.class.get(url)
     end
 
