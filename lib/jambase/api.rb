@@ -10,6 +10,10 @@ module Jambase
       Event.by_zip(zip, self)
     end
 
+    def events_by_artist_id(artist_id)
+      Event.by_artist_id(artist_id, self)
+    end
+
     def venue_by_id(id)
       Venue.by_id(id, self)
     end

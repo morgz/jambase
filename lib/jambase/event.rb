@@ -8,6 +8,11 @@ module Jambase
       data['Events'].map{|event| new(event, api) }
     end
 
+    def self.by_artist_id(artist_id, api)
+      data = api.connection.get('events', ArtistId: artist_id)
+      data['Events'].map{|event| new(event, api) }
+    end
+
     def venue
       @venue ||= Venue.new(@attrs['Venue'], api)
     end

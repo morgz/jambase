@@ -19,7 +19,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 14 Jul 2013 03:45:09 GMT
+      - Sun, 14 Jul 2013 05:11:04 GMT
       Expires:
       - '-1'
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       X-Aspnet-Version:
       - 4.0.30319
       X-Mashery-Responder:
-      - prod-p-worker-us-east-1d-34.mashery.com
+      - prod-p-worker-us-east-1b-46.mashery.com
       X-Powered-By:
       - ASP.NET
       Content-Length:
@@ -40,7 +40,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"Id":6763,"Name":"They Might Be Giants"}'
     http_version: 
-  recorded_at: Sun, 14 Jul 2013 03:51:55 GMT
+  recorded_at: Sun, 14 Jul 2013 05:17:51 GMT
 - request:
     method: get
     uri: http://api.jambase.com/events?ArtistId=6763&api_key=<API_KEY>
@@ -60,7 +60,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 14 Jul 2013 05:09:19 GMT
+      - Sun, 14 Jul 2013 05:11:05 GMT
       Expires:
       - '-1'
       Pragma:
@@ -70,7 +70,7 @@ http_interactions:
       X-Aspnet-Version:
       - 4.0.30319
       X-Mashery-Responder:
-      - prod-p-worker-us-east-1d-34.mashery.com
+      - prod-p-worker-us-east-1b-38.mashery.com
       X-Powered-By:
       - ASP.NET
       Content-Length:
@@ -93,5 +93,5 @@ http_interactions:
         States of America","CountryCode":"US","ZipCode":"90001","Url":"","Latitude":34.072122,"Longitude":-118.450066},"Artists":[{"Id":6763,"Name":"They
         Might Be Giants"}],"TicketUrl":"http://www.awin1.com/awclick.php?awinmid=4103&awinaffid=139685&platform=tm&p=http%3a%2f%2fwww.ticketmaster.com%2fevent%2f0B004AD5D8ED8EBF"}]}'
     http_version: 
-  recorded_at: Sun, 14 Jul 2013 05:16:05 GMT
+  recorded_at: Sun, 14 Jul 2013 05:17:51 GMT
 recorded_with: VCR 2.5.0
