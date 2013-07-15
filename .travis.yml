@@ -2,3 +2,6 @@ language: ruby
 rvm:
   - 2.0.0
 env: JAMBASE_API_KEY=thisisafakekey
+notifications:
+  email:
+    - cbrasic@gmail.com
